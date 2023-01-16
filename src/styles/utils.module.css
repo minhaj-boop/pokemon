@@ -1,0 +1,26 @@
+/*logo component styling*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 64px;
+  margin-bottom: 103px;
+}
+
+/*top component* styling*/
+.bgImage{
+  background-image: url('../../public/Background.png');
+  width: 1921px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+.bgTexture {
+  background-image: url('../../public/Texture.png');
+  width: 1921px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
