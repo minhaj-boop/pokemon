@@ -1,11 +1,13 @@
-import Homepage from '@/component/view/HomePage'
+import CharacterDetails from '@/component/view/CharaterDetails'
+//import Homepage from '@/component/view/HomePage'
 import React from 'react'
 
 const index = () => {
   return (
     <div>
       {/* here just need to declare the view component */}
-      <Homepage name='shopnil'/>
+      {/*<Homepage name='shopnil'/>*/}
+      <CharacterDetails/>
     </div>
   )
 }

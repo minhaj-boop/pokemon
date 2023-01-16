@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = () => {
+const Power = () => {
   return (
     <div>Button</div>
   )
 }
 
-export default Button
+export default Power
