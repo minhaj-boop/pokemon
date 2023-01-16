@@ -42,6 +42,57 @@
   background: #FFFFFF;
   border-radius: 8px;
 }
+.cardInner:hover {
+  background: #257BC4;
+}
+.cardInner:hover .cardIimg {
+  transition: transform .6s ease-out;
+  transform: scale(1.1);
+}
+
+.imgBox {
+  position: absolute;
+  left: 4.26%;
+  right: 4.26%;
+  top: 3.26%;
+  bottom: 26.71%;
+  background: #F2F2F2;
+}
+.cardIimg {
+  box-sizing: border-box;
+  position: absolute;
+  left: 4.26%;
+  right: 4.26%;
+  top: 3.26%;
+  bottom: 26.71%;
+}
+
+.id {
+  position: absolute;
+  left: 11.06%;
+  right: 74.47%;
+  top: 8.47%;
+  bottom: 86.32%;
+}
+.title {
+  position: absolute;
+  left: 6.81%;
+  right: 62.13%;
+  top: 78.5%;
+  bottom: 15.64%;
+}
+.powerBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 166px;
+  height: 24px;
+  left: 16px;
+  top: 267px;
+}
 .rec20 {
   position: absolute;
   left: 105.09%;
@@ -61,53 +112,10 @@
 
   background: #FFFFFF;
 }
-.imgBox {
-  position: absolute;
-  left: 4.26%;
-  right: 4.26%;
-  top: 3.26%;
-  bottom: 26.71%;
-  background: #F2F2F2;
-}
-.img {
-  box-sizing: border-box;
-  position: absolute;
-  left: 4.26%;
-  right: 4.26%;
-  top: 3.26%;
-  bottom: 26.71%;
-}
 
-.id {
-  position: absolute;
-  left: 11.06%;
-  right: 74.47%;
-  top: 8.47%;
-  bottom: 86.32%;
-}
 
-.title {
-  position: absolute;
-  left: 6.81%;
-  right: 62.13%;
-  top: 78.5%;
-  bottom: 15.64%;
-}
 
-.powerBox {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 8px;
-  position: absolute;
-  width: 166px;
-  height: 24px;
-  left: 16px;
-  top: 267px;
-}
-
-/* Character details component styles*/
+/******************Character details component styles***************/
 .detailsContainer{
   position: relative;
   width: 1920px;
@@ -153,3 +161,56 @@
   top: 0px;
   background: url('../../public/container_bg5.png');
 }
+
+
+.characterImgBox {
+  position: absolute;
+  width: 475px;
+  height: 475px;
+  left: 723px;
+  top: 303px;
+  background: #FFFFFF;
+}
+.characterImg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.content {
+  position: absolute;
+  width: 424px;
+  height: 156px;
+  left: 188px;
+  top: 307px;
+  margin-right: 111px;
+}
+
+.idContent {
+  position: absolute;
+  width: 349px;
+  height: 55px;
+  left: 188px;
+  top: 307px;
+  color: #257BC4;
+}
+
+.detailsContent {
+  position: absolute;
+  width: 424px;
+  height: 69px;
+  left: 188px;
+  top: 394px;
+}
+
+.contentFlex {
+  background-color: #257BC4;
+}
+
+.detailsContainer {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+/***************character details end**************/

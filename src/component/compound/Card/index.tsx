@@ -11,7 +11,7 @@ const Card = () => {
                   src="/assets/images/temp/010.png"
                   width={215}
                   height={215} 
-                  className={utilStyles.img}
+                  className={utilStyles.cardIimg}
                 />
               </div>
               <h3 className={utilStyles.title}>Bulbasaur</h3>

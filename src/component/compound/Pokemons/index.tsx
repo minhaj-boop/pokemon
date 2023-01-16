@@ -1,11 +1,11 @@
-import Card from '@/component/_root/Card'
-import Link from 'next/link'
+
 import React from 'react'
+import Card from '../Card'
 
 const Pokemons = () => {
   return (
     <div>
-      <Link href="/details"><Card/></Link>
+      <Card/>
     </div>
   )
 }
