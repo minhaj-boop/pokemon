@@ -5,11 +5,11 @@ const index = () => {
   return (
     <div>
       {/* here just need to declare the view component */}
-      <Homepage name=''/>
+      <Homepage/>
     </div>
   )
 }
 
-//HERE YOU NEED TO USE getStaticProps or getServerSideProps
+//USE getStaticProps or getServerSideProps
 
 export default index
